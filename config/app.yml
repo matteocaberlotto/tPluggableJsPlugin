@@ -1,0 +1,8 @@
+all:
+  pluggable_js_plugin:
+    # this defines the name of the general object containing all the others
+    javascript_namespace: pluggable
+    # you may of course use symfony internal template overriding mechanism but
+    # sometimes it is convenient to append some more custom code to the partials
+    head_append: false
+    bottom_append: false
