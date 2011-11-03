@@ -1,0 +1,19 @@
+This plugin allows dev to use jquery scripts into page before the framework itself is included.
+
+Scenario:
+- i need to use some custom js code with also dependencies to dynamic elements but i dont want to add 1 action to serve that js.
+
+Solution:
+- append js snippets to an object that gets executed at dom ready
+
+Sample:
+(after having activated the plugin)
+
+<script>
+pluggable.init.myEvent = function()
+{
+	alert('This gets executed at dom ready');
+}
+</script>
+
+Object name ('pluggable') is configurable
