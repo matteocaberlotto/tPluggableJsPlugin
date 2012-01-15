@@ -1,7 +1,7 @@
 this allows to write jquery javascript into html page.
-for performance reasons jquery get loaded at page end and is not available into previous elements.
+for performance reasons jquery gets loaded at page end and is not available into previous elements.
 it is also sometimes required to lower http requests for js code snippets.
-for those reasons sometimes it is required to write js code into page and this comes handy with dynamic js too.
+for those reasons sometimes it is required to write js code into page; it also comes handy with dynamic js.
 
 Sample:
 (after having activated the plugin)
