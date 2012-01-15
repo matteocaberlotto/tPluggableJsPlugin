@@ -1,10 +1,7 @@
-This plugin allows dev to use jquery scripts into page before the framework itself is included.
-
-Scenario:
-- i need to use some custom js code with also dependencies to dynamic elements but i dont want to add 1 action to serve that js.
-
-Solution:
-- append js snippets to an object that gets executed at dom ready
+this allows to write jquery javascript into html page.
+for performance reasons jquery get loaded at page end and is not available into previous elements.
+it is also sometimes required to lower http requests for js code snippets.
+for those reasons sometimes it is required to write js code into page and this comes handy with dynamic js too.
 
 Sample:
 (after having activated the plugin)
